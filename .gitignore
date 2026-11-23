@@ -221,3 +221,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Secrets and local config
+.env
+*.env
+config/
+**/config/eia_config.json
+**/*api_key*
+**/*secret*
+
+# Power BI local files
+*.pbix
+.pbi/
+**/.pbi/
+localSettings.json
+cache.abf
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
