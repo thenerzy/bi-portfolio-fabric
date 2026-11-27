@@ -1,0 +1,53 @@
+{
+  "nombre": "Spain Utilities Pulse",
+  "origen": "Colores tomados de las medidas DAX del modelo (tabla Sector) y del fondo de la página del informe",
+  "pagina": {
+    "fondo": "#EEF1F5",
+    "barra_neutra": "#8E9AAE"
+  },
+  "sectores": {
+    "Electricidad": {
+      "Color Sector": "#F4B400",
+      "Color Sector Oscuro": "#7A5A00",
+      "Pal Fuerte": "#B87A00",
+      "Pal Acento": "#FFC933",
+      "Pal Fondo": "#2A2208",
+      "Pal Tinta": "#5C4300",
+      "Pal Tinte": "#FFF4CC",
+      "Pal Cubo Arriba": "#FFD54F",
+      "Pal Cubo Izq": "#E0A100",
+      "Pal Cubo Der": "#A87500"
+    },
+    "Gas natural": {
+      "Color Sector": "#0EA5A4",
+      "Color Sector Oscuro": "#115E59",
+      "Pal Fuerte": "#0E9594",
+      "Pal Acento": "#4FD1CF",
+      "Pal Fondo": "#082E31",
+      "Pal Tinta": "#0B4F4E",
+      "Pal Tinte": "#D9F4F3",
+      "Pal Cubo Arriba": "#7FE3E1",
+      "Pal Cubo Izq": "#0E9594",
+      "Pal Cubo Der": "#0A6B6A"
+    },
+    "Agua": {
+      "Color Sector": "#3B82F6",
+      "Color Sector Oscuro": "#1E3A8A",
+      "Pal Fuerte": "#2563EB",
+      "Pal Acento": "#7DB2FF",
+      "Pal Fondo": "#0F2347",
+      "Pal Tinta": "#12306B",
+      "Pal Tinte": "#E3EEFF",
+      "Pal Cubo Arriba": "#9CC3FF",
+      "Pal Cubo Izq": "#3B82F6",
+      "Pal Cubo Der": "#2557B5"
+    }
+  },
+  "uso": {
+    "Color Sector": "Color principal del sector",
+    "Color Sector Oscuro": "Botón activo del selector de sector",
+    "Pal Fuerte": "Barra mayor del gráfico de barras (el resto usa barra_neutra)",
+    "Pal Fondo / Acento / Tinta / Tinte": "Colores de los visuales HTML (banner, tarjetas, indicadores, claves y título)",
+    "Pal Cubo Arriba / Izq / Der": "Las tres caras de los cubos de la ilustración isométrica del banner"
+  }
+}

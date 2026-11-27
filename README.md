@@ -1,24 +1,26 @@
-# BI Portfolio · Microsoft Fabric
+# Portfolio BI · Microsoft Fabric
 
-A collection of end-to-end analytics projects built on **Microsoft Fabric** and **Power BI**, using the **medallion architecture** (Bronze, Silver, Gold). Each project goes from raw public data to a finished dashboard, with incremental loads, data quality checks and a documented semantic model.
+Proyectos de analítica de principio a fin construidos con **Microsoft Fabric** y **Power BI** sobre arquitectura medallón (Bronze, Silver y Gold). Cada proyecto va desde datos públicos en bruto hasta un tablero terminado, con carga incremental, validaciones de calidad de datos y un modelo semántico documentado.
 
-## Projects
+## Proyectos
 
-| # | Project | Question it answers | Status |
-|---|---|---|---|
-| 01 | [Spain Utilities Pulse](01_spain-utilities-pulse) | How are electricity, gas and water doing in Spain today? | In progress |
+| # | Proyecto | Pregunta que responde | Fuentes | Estado |
+|---|---|---|---|---|
+| 01 | [Spain Utilities Pulse](01_spain-utilities-pulse) | ¿Cómo están hoy la electricidad, el gas natural y el agua en España? | REE, ENTSOG, GIE AGSI+ y MITECO | Terminado |
 
-## Stack
+[![Spain Utilities Pulse](01_spain-utilities-pulse/docs/tablero_electricidad.png)](01_spain-utilities-pulse)
 
-- Microsoft Fabric (Lakehouse, Data Pipelines, Notebooks)
-- PySpark and Delta tables
-- Power BI (star schema, DAX, Direct Lake)
-- Git integration and CI-friendly folder structure
+## Tecnologías
 
-## Repository layout
+- Microsoft Fabric: Lakehouse con esquemas, notebooks y pipelines
+- PySpark y tablas Delta (`MERGE`, particiones, validaciones)
+- Power BI: modelo en estrella, DAX y visuales HTML generados con DAX
+- Proyectos de Power BI en formato PBIP/PBIR, versionados en Git
 
-Each project lives in its own numbered folder with its own README, notebooks, Fabric items and Power BI files.
+## Estructura del repositorio
 
-## About
+Cada proyecto vive en su propia carpeta numerada con su README, sus notebooks, sus elementos de Fabric y sus archivos de Power BI.
 
-Built by Diego as a personal learning project. Progress is documented on LinkedIn.
+## Autor
+
+Proyecto personal de Diego para seguir aprendiendo como consultor de Business Intelligence. Voy contando los avances en LinkedIn.
